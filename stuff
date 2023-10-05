@@ -1,0 +1,4 @@
+#!/bin/sh
+sed -i -e 's/-8859/10646/' *.bdf
+cp *.bdf ~/.local/share/fonts/
+fc-cache -f
